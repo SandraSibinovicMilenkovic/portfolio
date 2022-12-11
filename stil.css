@@ -1,0 +1,294 @@
+@font-face {
+    font-family: 'Amatic';
+    src: url(Fontovi/Amatic-Bold.ttf);
+}
+@font-face {
+    font-family: 'Body';
+    src: url(Fontovi/Baskerville\ BT.ttf);
+}
+@font-face {
+    font-family: 'h3';
+    src: url(Fontovi/baskerville_bt_bold.ttf);
+}
+body{
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Body';
+    
+}
+nav{
+    width: 100%;
+    height:7%;
+    position: fixed;
+    z-index: 99;
+}
+nav ul{ width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    margin: auto;
+    height: 100%;
+    padding: 0;
+}
+nav ul li{
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+nav ul li a{
+
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    
+}
+nav ul li:hover a {
+   font-size:40px ;
+
+}
+#logo{
+    position: absolute;
+
+}
+#logo img{
+    height: 67px;
+}
+#cover{
+    
+    
+    height: 1000px;
+    background: url('Slike/logo\ za\ pocetnu\ belo\ crno.jpg') fixed;
+    background-position-x: center;
+    background-repeat: no-repeat; 
+     background-size: cover;
+    border-bottom: 1px solid black;
+}
+#cover h1{
+    text-align: center;
+    position: absolute;
+    top: 41%;
+    left: 44.8%;
+    transform: translate(-50%,-50%);
+    color: whitesmoke;
+    font-size: 102px;
+    width: 25%;
+ }
+ #about{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    
+    
+ }
+ #linkAbout{
+    padding-top: 90px;
+ }
+ .naslov{ 
+    font-family: 'Amatic';
+    font-size: 70px;
+    margin-bottom: 34px;
+    text-align: center;
+ }
+ #beli{
+    width: 50%;
+    background-color: aliceblue;
+    color: black;
+    background-image: url('Slike/cover\ slika\ mozda.jpg');
+    background-position: right;
+    background-size: cover;
+    border-top: 1px solid black;
+    
+    border-bottom: 1px solid black;
+ }
+ #crni{
+    width: 50%;
+    background-image: url('Slike/za\ biogradfiju.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+ }
+#crni p{
+    width: 78%;
+    font-size: 24px;
+    color: black;
+ }
+ 
+#crni div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 53%;
+
+}
+
+#crni #prviParagraf{
+    justify-content: flex-start;
+}
+
+#crni #drugiParagraf{
+    justify-content: flex-end;
+}
+#prviParagraf p {
+    padding-top: 14%;
+}
+#drugiParagraf p{
+    padding-top: 7%;
+    padding-left: 25%;
+}
+
+#linkarts{
+    padding-top: 90px;
+}
+
+#arts{
+    height:800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#arts section{
+    display: flex;
+    height:100%;
+    width: 100%;
+}
+
+.crniarts{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.crniarts a{
+    color: white;
+    font-size: 35px;
+    font-family: 'Amatic';
+    text-align: center;
+    text-decoration: none;
+}
+.beliarts{
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beliarts a{
+    color: black;
+    font-size: 35px;
+    font-family: 'Amatic';
+    text-align: center;
+    text-decoration: none;
+}
+
+#arts section:hover a{
+    text-decoration: line-through;
+    font-size: 60px;
+}
+#arts section{
+    flex-direction: column;
+}
+ section .beliarts, section .crniarts{
+    background-size: 70%;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+#vektorskaGrafika .beliarts{
+    height: 30%;
+    background-image: url('Slike/slikeArts/vektorska.jpg');
+}
+#vektorskaGrafika .crniarts{
+    height: 70%;
+}
+#arts section:hover .beliarts{
+    background-size:80% ;
+}
+#arts section:hover .crniarts{
+    background-size:80% ;
+}
+#webDizajn .crniarts{
+    height: 30%;
+    background-image: url('Slike/slikeArts/web.jpg');
+}
+#webDizajn .beliarts{
+    height: 70%;
+}
+#dizajnPublikacija .beliarts{
+    height: 30%;
+    background-image: url('Slike/slikeArts/publikacije.jpg');
+}
+#dizajnPublikacija .crniarts{
+    height: 70%;
+}
+#rasterskaGrafika .crniarts{
+    height: 30%;
+    background-image: url('Slike/slikeArts/raster.jpg');
+}
+#rasterskaGrafika .beliarts{
+    height: 70%;
+}
+#korporativniIdentitet .beliarts{
+    height: 30%;
+    background-image: url('Slike/slikeArts/korporativni.jpg');
+} 
+#korporativniIdentitet  .crniarts{
+    height: 70%;
+} 
+#videoAnimacija .crniarts{
+    height: 30%;
+    background-image: url('Slike/slikeArts/video.jpg');
+}
+
+
+#videoAnimacija .beliarts{
+    height: 70%;
+}
+
+#linkKontakt{
+    padding-top: 90px;
+}
+#contact{
+    background-image: url('Slike/kontakt2.jpg');
+    height:800px;
+    width: 100%;
+    display: flex;
+    border-top: 1px solid black;
+}
+#contact p {
+    font-size: 30px;
+    display: inline-block;
+    line-height: 1.5;
+    padding-left: 1%;
+}
+ #kontaktlevo, #kontaktdesno{
+    width:45%;
+}
+#kontaktdesno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#kontaktdesno img{
+    width: 70px;
+    display: inline-block;
+}
+
+#kontaktdesno div{
+    display: flex;
+    align-items: center;
+    margin: 1%;
+    
+}
+#kontaktdesno img:hover{
+width: 100px;
+}
