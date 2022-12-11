@@ -167,7 +167,7 @@ nav ul li:hover a {
     justify-content: center;
     align-items: center;
 }
-.crniarts a{
+.crniarts p{
     color: white;
     font-size: 35px;
     font-family: 'Amatic';
@@ -182,22 +182,36 @@ nav ul li:hover a {
     align-items: center;
 }
 
-.beliarts a{
+.beliarts p{
     color: black;
     font-size: 35px;
     font-family: 'Amatic';
     text-align: center;
     text-decoration: none;
+    
 }
 
-#arts section:hover a{
+#arts section:hover p{
     text-decoration: line-through;
     font-size: 60px;
 }
 #arts section{
     flex-direction: column;
+    border: 1px solid black;
 }
- section .beliarts, section .crniarts{
+section a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    
+}
+
+ section a .beliarts, section a .crniarts{
+    width: 100%;
     background-size: 70%;
     background-position:center;
     background-repeat: no-repeat;
