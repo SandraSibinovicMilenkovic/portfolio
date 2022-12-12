@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
 }
-#linkvektorska{
+#link{
     padding-top: 90px;
 }
 #vektorska section{
@@ -43,7 +43,7 @@
     text-decoration: none;
 }
 
-#vektorska section:hover p{
+#vektorska section:hover p, #rasterska section:hover p {
     text-decoration: line-through;
     font-size: 60px;
 }
@@ -51,18 +51,18 @@
     flex-direction: column;
     
 }
- #vektorska section .belivektorska, #vektorska section .crnivektorska{
+ #vektorska section .belivektorska, #vektorska section .crnivektorska {
     background-size: 60%;
     background-position:center;
     background-repeat: no-repeat;
 }
 
 
-#prvilogo .belivektorska{
+#prvi .belivektorska{
     height: 50%;
     background-image: url('Slike/Radovi/vektori/jackson\ rooftop.jpg');
 }
-#prvilogo .crnivektorska{
+#prvi .crnivektorska{
     height: 50%;
 }
 #vektorska section:hover .belivektorska{
@@ -71,24 +71,24 @@
 #vektorska section:hover .crnivektorska{
     background-size:80% ;
 }
-#drugilogo .belivektorska{
+#drugi .belivektorska{
     height: 50%;
     background-image: url('Slike/Radovi/vektori/world\ of\ bugs.jpg');
 }
-#drugilogo .crnivektorska{
+#drugi .crnivektorska{
     height: 50%;
 }
-#trecilogo .belivektorska{
+#treci .belivektorska{
     height: 50%;
     background-image: url('Slike/Radovi/vektori/plumbing\ .jpg');
 }
-#trecilogo .crnivektorska{
+#treci .crnivektorska{
     height: 50%;
 }
-#cetvrtilogo .crnivektorska{
+#cetvrti .crnivektorska{
     height: 50%;
 }
-#cetvrtilogo .belivektorska{
+#cetvrti .belivektorska{
     
     height: 50%;
     background-image: url('Slike/Radovi/vektori/pirana.jpg');
