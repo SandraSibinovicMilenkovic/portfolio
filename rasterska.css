@@ -187,3 +187,22 @@
     width: 38%;
 
 }
+
+#intervention{
+    height:857px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+#intervention #rasterskadesni{
+    background-image:url('Slike/Radovi/rasterska/intervencija.jpg');
+}
+#interventionmokap .slikamokap{
+    background-image: url('Slike/Radovi/rasterska/anksioznost.jpg');
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 38%;
+}
