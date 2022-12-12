@@ -23,7 +23,6 @@
 .crnir{
     background-color: black;
     display: flex;
-    border: 1px solid black;
     justify-content: center;
     align-items: center;
 }
@@ -50,10 +49,11 @@
     text-decoration: none;
     
 }
- #rasterska section:hover p {
-    text-decoration: line-through;
-    font-size: 60px;
-}
+
+
+
+
+
 
 #rasterska #prvir .belir{
     height: 30%;
