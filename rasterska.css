@@ -54,28 +54,6 @@
 
 
 
-#rasterskalevi , #rasterskadesni{
-    display: flex;
-    width: 50%;
-    flex-direction: column;
-    align-items: baseline;
-    padding-top: 50px;
-}
-
-#rasterskadesni{
-    height: 100%;
-}
-
-#movie #rasterskadesni{
-    background-image:url('Slike/Radovi/rasterska/fimski\ plakat.jpg');
-}
-#movie{
-    height:700px;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    padding-left: 25%;
-}
 
 #rasterska #prvir .belir{
     height: 30%;
@@ -136,4 +114,76 @@
     background-position: center;
     
     
+}
+
+#rasterskalevi , #rasterskadesni{
+    display: flex;
+    width: 27%;
+    flex-direction: column;
+    align-items: baseline;
+    padding-top: 5px;
+}
+
+#rasterskadesni{
+    height: 100%;
+}
+
+#movie #rasterskadesni{
+    background-image:url('Slike/Radovi/rasterska/fimski\ plakat.jpg');
+}
+#movie{
+    height:857px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    
+}
+
+.mokapvelicina {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 875px;
+    
+
+}
+
+#moviemokap .slikamokap{
+    background-image: url('Slike/Radovi/rasterska/Free\ Bus\ Stop\ Mockup.jpg');
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 38%;
+
+}
+ .linkmokap{
+    width: 25%;
+    padding-left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.linkmokap p{
+    margin-bottom: 5px;
+}
+#volcano #rasterskadesni{
+    background-image:url('Slike/Radovi/rasterska/Reklamni\ oglas\ sladoled\ vulkano\ malina-vanila.jpg');
+}
+#volcano{
+    height:857px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    
+}
+#volcanomokap .slikamokap{
+    background-image: url('Slike/Radovi/rasterska/Mockup\ reklamni\ oglas.jpg');
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 38%;
+
 }
