@@ -1,0 +1,117 @@
+#rasterska{
+    height:800px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+#rasterska section{
+    width: 100%;
+    height: 100%;
+}
+#omotac{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -5%;
+}
+
+#linkr{
+    padding-top: 6%;
+}
+
+
+.crnir{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.crnir p{
+    color: white;
+    font-size: 35px;
+    font-family: 'Amatic';
+    text-align: center;
+    text-decoration: none;
+}
+.belir{
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.belir p{
+    color: black;
+    font-size: 35px;
+    font-family: 'Amatic';
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+#rasterska #prvir .belir{
+    height: 30%;
+    width: 100%;
+    
+}
+#rasterska #prvir .crnir{
+    height: 42%;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('Slike/Radovi/rasterska/fimski\ plakat.jpg');
+}
+
+#rasterska #drugir .belir{
+    height: 42%;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-image: url('Slike/Radovi/rasterska/Reklamni\ oglas\ sladoled\ vulkano\ malina-vanila.jpg');
+ 
+}
+#rasterska #drugir .crnir{
+    height: 30%;
+    width: 100%;
+    
+}
+
+#rasterska #trecir .belir{
+    height: 30%;
+    width: 100%;
+    
+}
+#rasterska #trecir .crnir{
+    height: 42%;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('Slike/Radovi/rasterska/intervencija.jpg');
+}
+
+#rasterska #cetvrtir .crnir{
+    height: 30%;
+    width: 100%;
+    
+}
+#rasterska #cetvrtir .belir{
+    background-image: url('Slike/Radovi/rasterska/baner.gif');
+    background-color: #fcaa79;
+    height: 42%;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
