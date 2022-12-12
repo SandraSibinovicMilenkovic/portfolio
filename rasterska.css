@@ -1,6 +1,6 @@
 #rasterska{
-    height:800px;
-    width: 50%;
+    height:776px;
+    width: 60%;
     display: flex;
     justify-content: center;
 }
@@ -12,13 +12,14 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: -5%;
 }
 
 #linkr{
     padding-top: 6%;
 }
-
+#rasterska section a{
+    justify-content: flex-start;
+}
 
 .crnir{
     background-color: black;
@@ -53,7 +54,28 @@
 
 
 
+#rasterskalevi , #rasterskadesni{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: baseline;
+    padding-top: 50px;
+}
 
+#rasterskadesni{
+    height: 100%;
+}
+
+#movie #rasterskadesni{
+    background-image:url('Slike/Radovi/rasterska/fimski\ plakat.jpg');
+}
+#movie{
+    height:700px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-left: 25%;
+}
 
 #rasterska #prvir .belir{
     height: 30%;
@@ -61,7 +83,7 @@
     
 }
 #rasterska #prvir .crnir{
-    height: 42%;
+    height: 52%;
     width: 100%;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -70,7 +92,7 @@
 }
 
 #rasterska #drugir .belir{
-    height: 42%;
+    height: 52%;
     width: 100%;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -91,7 +113,7 @@
     
 }
 #rasterska #trecir .crnir{
-    height: 42%;
+    height: 52%;
     width: 100%;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -107,7 +129,7 @@
 #rasterska #cetvrtir .belir{
     background-image: url('Slike/Radovi/rasterska/baner.gif');
     background-color: #fcaa79;
-    height: 42%;
+    height: 52%;
     width: 100%;
     background-size: 100%;
     background-repeat: no-repeat;

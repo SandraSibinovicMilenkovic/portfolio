@@ -119,10 +119,10 @@
     align-items: flex-end;
     padding-right: 5%;
 }
-.vektoridesni{
+.vektoridesni, #rasterskadesni{
     align-items: flex-start;
 }
- .vektorilevi .vektorislika{
+ .vektorilevi .vektorislika, #rasterskadesni{
    
     background-size: contain;
     height: 50%;
@@ -132,16 +132,16 @@
 .vektoritekst  {
     width: 50%;
 }
-.vektoritekst p{
+.vektoritekst p, #rasterskalevi p{
     width: 75%;
     padding-top: 2%;
 }
-.vektoritekst h3 {
+ h3 {
     font-family: 'h3';
     font-size: 25px;
     padding-bottom: 10px;
 }
- .vektoridesni .vektorislika{
+ .vektoridesni .vektorislika, #rasterskalevi #rasterskadesni{
    
     background-size: contain;
     height: 50%;
