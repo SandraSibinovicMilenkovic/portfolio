@@ -206,3 +206,43 @@
     background-repeat: no-repeat;
     width: 38%;
 }
+
+
+
+#banners{
+    width: 100%;
+    display: flex;
+    padding-top: 10%;
+    justify-content: center;
+}
+#banerlevi{
+    background-image: url('Slike/Radovi/rasterska/uspravni\ baner.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 30%;
+    display: flex;
+    background-position: center;
+    
+}
+#banerdesni{
+    width: 70%;
+}
+#dugacki{
+    background-image: url('Slike/Radovi/rasterska/dugacki\ baner.jpg');
+    width: 85%;
+    height: 25%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#gif{
+    background-image: url('Slike/Radovi/rasterska/baner.gif');
+    height: 40%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 5%;
+}
+
+#banertekst{
+width: 50%;
+}
