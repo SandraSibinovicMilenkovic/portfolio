@@ -1,0 +1,86 @@
+#web{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#webstampirana, #webgust{
+    width: 25%;
+    height: 100%;
+    
+}
+.webbeli{
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    
+}
+.webcrni{
+    background-color: black;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+#webstampirana .webbeli{
+    background-image: url('Slike/Radovi/web/stampirana\ pocetna.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 30%;
+    background-repeat: no-repeat;
+}
+#webstampirana .webcrni p{
+    color: white;
+    font-size: 40px;
+    font-family: 'Amatic';
+    text-align: center;
+    text-decoration: none;
+}
+#web section:hover p{
+    text-decoration: line-through;
+    font-size: 60px;
+}
+#webgust .webbeli p{
+    color: black;
+    font-size: 40px;
+    font-family: 'Amatic';
+    text-align: center;
+    text-decoration: none;
+}
+
+#webgust .webcrni{
+    background-image: url('Slike/Radovi/web/gust\ pocetna.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 30%;
+}
+
+#stampiranaid .vektorilevi .vektorislika{
+    background-image: url('Slike/Radovi/web/stampirana\ pocetna.jpg');
+}
+#stampiranaid .vektoridesni .vektorislika{
+    background-image: url('Slike/Radovi/web/stampirana\ mokap.jpg');
+}
+
+#gustid .vektorilevi .vektorislika{
+    background-image: url('Slike/Radovi/web/gust\ pocetna.jpg');
+}
+#gustid .vektoridesni .vektorislika{
+    background-image: url('Slike/Radovi/web/mokap\ gust.jpg');
+}
+
+#gustid .vektorilevi .vektorislika,#stampiranaid .vektorilevi .vektorislika{
+   width:  70%;
+
+}
+#gustid .vektorilevi .vektoritekst,#stampiranaid .vektorilevi .vektoritekst{
+    width: 70%;
+}
