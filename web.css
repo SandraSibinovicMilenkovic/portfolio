@@ -10,6 +10,15 @@
     height: 100%;
     
 }
+#stampiranaid{
+    padding-top: 0%;
+}
+#stampiranaid .vektorislika{
+    width: 58%;
+}
+#gustid{
+    padding-top: 0%;
+}
 .webbeli{
     background-color: white;
     border: 1px solid black;

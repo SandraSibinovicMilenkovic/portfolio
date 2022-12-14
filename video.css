@@ -10,12 +10,15 @@
     justify-content: center;
 }
 #videomonster, #videoclown{
-    width: 70%;
+    width: 50%;
     height: 800px;
     flex-direction: column;
     display: flex;
     align-items: end;
     
+}
+#monster{
+    margin-top: 5%;
 }
 #videomonster video, #videoclown video{
     width: 90%;
