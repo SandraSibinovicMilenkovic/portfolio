@@ -14,4 +14,13 @@ function start() {
         
     }
 
+
+
+    const loader = document.querySelector('.loader');
+    loader.classList.add('loader-hidden');
+    loader.addEventListener('transitioned',sklanja,false);
+    function sklanja() {
+        document.body.removeChild('loader');
+    }
+
 }
