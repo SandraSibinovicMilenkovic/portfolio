@@ -3,11 +3,12 @@
     width: 100%;
     justify-content: center;
     align-content: center;
+    flex-direction: column;
 }
 #magazine{
     display: flex;
     width: 100%;
-    height: 1000px;
+    height: 900px;
 }
 #magazineleft{
     width: 50%;
@@ -22,7 +23,7 @@
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
-    height: 37%;
+    height: 41%;
 }
 
 #magazineright{
@@ -39,10 +40,35 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
-    height: 37%;
+    height: 41%;
     
 }
-.textmagazine{
+.textpublication{
     width: 56%;
     margin-top: 3%;
+}
+
+#brosura{
+    width: 100%;
+    display: flex;
+    height: 900px;
+    flex-direction: column;
+}
+#brosuramokap{
+    width: 100%;
+    height: 500px;
+    background-image: url('Slike/Radovi/publikacije/brosura.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#brosuratext{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#brosuratext .textpublication{
+    width: 23%;
+    margin-left: 5%;
 }
