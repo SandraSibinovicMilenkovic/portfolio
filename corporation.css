@@ -1,0 +1,41 @@
+#corporation{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    height: 900px;
+}
+
+
+#corporationleft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#corporationright{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+#corporationtext{
+    width: 50%;
+}
+#bonsai{
+    width: 60%;
+    background-image: url('Slike/Radovi/korporativni/bonsai-pejzaz-logo.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: -238%;
+    height: 50%;
+}
+#mokapcorporation{
+    width: 59%;
+    height: 50%;
+    background-image: url('Slike/Radovi/korporativni/knjiga\ standarda\ .jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
