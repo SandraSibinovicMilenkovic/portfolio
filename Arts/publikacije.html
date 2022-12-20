@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="../vektorska.css">
     <link rel="stylesheet" href="../publikacije.css">
     <script src="../skript.js"></script>
+    <script type="text/javascript" src="../turnjs4/extras/jquery.min.1.7.js"></script>
+    <script type="text/javascript" src="../turnjs4/extras/modernizr.2.5.3.min.js"></script>
     <link rel="shortcut icon" href="../Slike/logo za pocetnu belo crno.jpg">
     <title>Publication Design</title>
 </head>
@@ -86,6 +88,100 @@
             </div>
 
         </section>
+
+            <p class="entire" >You can read the entire book here - simply drag or click the top or bottom right corner.</p>
+            <div class="flipbook-viewport">
+                <div class="container">
+                    <div class="flipbook">
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_01.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_02.jpg )"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_03.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_04.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_05.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_06.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_07.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_08.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_09.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_10.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_11.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_12.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_13.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_14.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_15.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_16.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_17.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_18.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_19.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_20.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_21.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_22.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_23.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_24.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_25.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_26.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_27.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_28.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_29.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_30.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_31.jpg)"></div>
+                        <div style="background-image:url(../magazin/pages/novo\ za\ casopis_32.jpg)"></div>
+                        
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            
+            <script type="text/javascript">
+            
+            function loadApp() {
+            
+                // Create the flipbook
+            
+                $('.flipbook').turn({
+                        // Width
+            
+                        width:922,
+                        
+                        // Height
+            
+                        height:654,
+            
+                        // Elevation
+            
+                        elevation: 50,
+                        
+                        // Enable gradients
+            
+                        gradients: true,
+                        
+                        // Auto center this flipbook
+            
+                        autoCenter: true
+            
+                });
+            }
+            
+            // Load the HTML4 version if there's not CSS transform
+            
+            yepnope({
+                test : Modernizr.csstransforms,
+                yep: ['../turnjs4/lib/turn.js'],
+                nope: ['../turnjs4/lib/turn.html4.min.js'],
+                both: ['../magazin/css/basic.css'],
+                complete: loadApp
+            });
+            
+            </script>
+
+
+
+
+
+
+        
 
 
         <section id="brosura">
