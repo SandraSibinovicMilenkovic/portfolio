@@ -1,96 +1,128 @@
-#web{
-    width: 100%;
-    height: 800px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#webstampirana, #webgust{
-    width: 25%;
-    height: 100%;
-    
-}
+
 #stampiranaid{
     padding-top: 0%;
     height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
-#stampiranaid .vektorislika{
+#stampiranaid .webslika{
     width: 58%;
 }
 #gustid{
     padding-top: 0%;
-}
-.webbeli{
-    background-color: white;
-    border: 1px solid black;
+    height: 750px;
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 50%;
-    
 }
-.webcrni{
-    background-color: black;
-    border: 1px solid black;
+
+.weblevi , .webdesni{
     display: flex;
-    justify-content: center;
+    width: 50%;
+    flex-direction: column;
     align-items: center;
-    width: 100%;
+    padding-top: 50px;
+}
+.weblevi{
+    align-items: flex-end;
+    padding-right: 5%;
+}
+.webdesni{
+    align-items: flex-start;
+}
+ .weblevi .webslika{
+   
+    background-size: contain;
     height: 50%;
-}
-#webstampirana .webbeli{
-    background-image: url('Slike/Radovi/web/stampirana\ pocetna.jpg');
-    background-size: cover;
-    width: 100%;
-    height: 30%;
+    width: 50%;
     background-repeat: no-repeat;
 }
-#webstampirana .webcrni p{
-    color: white;
-    font-size: 40px;
-    font-family: 'Amatic';
-    text-align: center;
-    text-decoration: none;
+.webtekst  {
+    width: 50%;
 }
-#web section:hover p{
-    text-decoration: line-through;
-    font-size: 60px;
+.webtekst p {
+    width: 75%;
+    padding-top: 2%;
 }
-#webgust .webbeli p{
-    color: black;
-    font-size: 40px;
-    font-family: 'Amatic';
-    text-align: center;
-    text-decoration: none;
+ h3 {
+    font-family: 'h3';
+    font-size: 25px;
+    padding-bottom: 10px;
 }
-
-#webgust .webcrni{
-    background-image: url('Slike/Radovi/web/gust\ pocetna.jpg');
+ .webdesni .webslika{
+   
+    background-size: contain;
+    height: 50%;
+    width: 50%;
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 30%;
 }
 
-#stampiranaid .vektorilevi .vektorislika{
+
+
+
+
+#stampiranaid .weblevi .webslika{
     background-image: url('Slike/Radovi/web/stampirana\ pocetna.jpg');
 }
-#stampiranaid .vektoridesni .vektorislika{
+#stampiranaid .webdesni .webslika{
     background-image: url('Slike/Radovi/web/stampirana\ mokap.jpg');
 }
 
-#gustid .vektorilevi .vektorislika{
+#gustid .weblevi .webslika{
     background-image: url('Slike/Radovi/web/gust\ pocetna.jpg');
 }
-#gustid .vektoridesni .vektorislika{
+#gustid .webdesni .webslika{
     background-image: url('Slike/Radovi/web/mokap\ gust.jpg');
 }
 
-#gustid .vektorilevi .vektorislika,#stampiranaid .vektorilevi .vektorislika{
+#gustid .weblevi .webslika,#stampiranaid .weblevi .webslika{
    width:  70%;
 
 }
-#gustid .vektorilevi .vektoritekst,#stampiranaid .vektorilevi .vektoritekst{
+#gustid .weblevi .webtekst,#stampiranaid .weblevi .webtekst{
     width: 70%;
+}
+
+@media (max-width: 900px){
+    #stampiranaid, #gustid{
+        flex-direction: column;
+        height: 550px;
+    }
+
+    .weblevi , .webdesni{
+        padding: 0 2%;
+        width: 100%;
+        flex-direction: row;
+        
+    }
+    #stampiranaid .weblevi .webslika,#gustid .weblevi .webslika {
+        height: 220px;
+        width: 80%;
+    }
+   .webtekst{
+    width: 100%;
+    height: 220px;
+   }
+   .webtekst p {
+    width: 100%;
+    font-size: 14px;
+  }
+  .weblevi .webtekst {
+    width: 70%;
+    padding: 0 5%;
+}
+
+#stampiranaid .webdesni .webslika, #gustid .webdesni .webslika{
+    height: 220px;
+    width: 80%;
+    background-position: center;
+}
+.webdesni .webtekst {
+    width: 70%;
+    padding: 5%;
+}
+
+
+
 }
