@@ -358,7 +358,7 @@ width: 100px;
 
 
 
-@media (max-width: 768px){
+@media (max-width: 900px){
     nav ul li a{
         font-size: 20px;
     }
@@ -370,10 +370,11 @@ width: 100px;
         height: 57px;
     }
     #cover{
-        height: 372px;
-        background-position:top;
+        height: 500px;
+        background-position-y: 15px;
         background-size: contain;
-    }
+      }
+    
     #linkAbout {
         padding-top: 75px;
     }
@@ -387,7 +388,10 @@ width: 100px;
         background-repeat: no-repeat;
      }
      #crni{
-        background-size: 396px;
+        background-size: 423px;
+        background-repeat: no-repeat;
+        background-color: black;
+        background-position-y: -4px;
      }
      #crni p{
         
@@ -413,7 +417,7 @@ width: 100px;
 
     #contact{
         height: 400px;
-        background-size: contain;
+        background-size: 900px;
         background-repeat: no-repeat;
     }
     #kontaktdesno img{
@@ -426,6 +430,6 @@ width: 100px;
         width: 60px;
         }
         #kontaktlevo, #kontaktdesno {
-            width: 43%;
+            width: 45%;
           }
 }

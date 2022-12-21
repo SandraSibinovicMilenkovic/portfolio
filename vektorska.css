@@ -173,3 +173,99 @@
 #stampirana .vektoridesni .vektorislika{
     background-image: url('Slike/Radovi/vektori/stampirana\ mokap\ za\ logo\ .jpg');
 }
+
+
+
+@media (max-width: 900px){
+
+#vektorska{
+    height: 900px;
+    margin-top: 10%;
+}
+#link{
+    padding-top: 125px;
+}
+
+
+#vektorska section:hover .belivektorska{
+    background-size:100% ;
+}
+#vektorska section:hover .crnivektorska{
+    background-size:100% ;
+}
+#vektorska section:hover p, #rasterska section:hover p {
+    text-decoration: line-through;
+    font-size: 40px;
+}
+.crnivektorska p, .belivektorska p{
+    font-size: 30px;
+}
+.strana{
+    height: 1100px;
+    flex-direction: column;
+}
+.vektorilevi, .vektoridesni{
+    width: 100%;
+}
+#jackson .vektorilevi .vektorislika{
+    height: 350px;
+    width: 100%;
+    background-position: center;
+}
+.vektoritekst{
+    width: 100%;
+}
+
+.vektoritekst p, #rasterskalevi p{
+    width: 80%;
+    padding-top: 2%;
+    padding-left: 10%;
+    text-align: center;  
+}
+h3{
+    text-align: center;
+}
+
+
+#jackson .vektoridesni .vektorislika{
+    height: 350px;
+    width: 100%;
+    background-position: center;
+}
+.vektoridesni{
+    margin-bottom: 10%;
+}
+
+#bugs .vektorilevi .vektorislika{
+    height: 350px;
+    width: 100%;
+    background-position: center;
+}
+#bugs .vektoridesni .vektorislika{
+    height: 350px;
+    width: 100%;
+    background-position: center;
+}
+
+#plumbing .vektorilevi .vektorislika{
+    height: 350px;
+    width: 100%;
+    background-position: center;
+}
+#plumbing .vektoridesni .vektorislika{
+    height: 350px;
+    width: 100%;
+    background-position: center;
+}
+#stampirana .vektorilevi .vektorislika{
+    height: 350px;
+    width: 100%;
+    background-position: center;
+}
+#stampirana .vektoridesni .vektorislika{
+    height: 350px;
+    width: 100%;
+    background-position: center;
+}
+
+}
