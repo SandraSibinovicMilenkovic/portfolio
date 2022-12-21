@@ -354,3 +354,78 @@ width: 100px;
         transform: rotate(1turn);
     }
 }
+
+
+
+
+@media (max-width: 768px){
+    nav ul li a{
+        font-size: 20px;
+    }
+    nav ul li:hover a {
+        font-size:30px ;
+     
+     }
+    #logo img {
+        height: 57px;
+    }
+    #cover{
+        height: 372px;
+        background-position:top;
+        background-size: contain;
+    }
+    #linkAbout {
+        padding-top: 75px;
+    }
+    #about{
+        height: 344px;
+        
+     }
+     #beli{
+        background-color: white;
+        background-size: 518px;
+        background-repeat: no-repeat;
+     }
+     #crni{
+        background-size: 396px;
+     }
+     #crni p{
+        
+        font-size: 10px;
+       
+     }
+     #linkarts {
+        padding-top: 75px;
+      }
+      #arts{
+        height: 600px;
+      }
+      #arts section:hover p{
+        text-decoration: line-through;
+        font-size: 30px;
+    }
+    #arts section:hover .beliarts{
+        background-size:50% ;
+    }
+    #arts section:hover .crniarts{
+        background-size:50% ;
+    }
+
+    #contact{
+        height: 400px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #kontaktdesno img{
+        width: 50px;
+    }
+    #contact p {
+        font-size: 14px;
+    }
+    #kontaktdesno img:hover{
+        width: 60px;
+        }
+        #kontaktlevo, #kontaktdesno {
+            width: 43%;
+          }
+}
