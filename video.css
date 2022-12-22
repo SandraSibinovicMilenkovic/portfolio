@@ -29,5 +29,28 @@
     margin-right: 2%;
 }
 @media (max-width: 900px){
-    
+    #monster, #clown{
+        flex-direction: column;
+    }
+    #videomonster , #videoclown{
+        height: 500px;
+        width: 100%;
+        align-items: center;
+    }
+    .videotext {
+        margin-left: 0;
+        width: 90%;
+        margin-right: 0;
+        padding: 5%;
+        text-align: center;
+      }
+      #clown{
+        margin-top: 10%;
+      }
+}
+
+@media (max-width: 640px){
+    #videomonster, #videoclown {
+        height: 376px;
+    }
 }

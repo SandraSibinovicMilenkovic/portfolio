@@ -246,3 +246,94 @@
 #banertekst{
 width: 50%;
 }
+
+
+@media (max-width:900px){
+    #linkr{
+        padding-top: 14%;
+    }
+    #rasterska {
+        height: 614px;
+        width: 100%;
+        margin-top: 8%;
+    }
+    #rasterskalevi, #rasterskadesni{
+        width: 50%;
+        padding-top: 8%;
+    }
+    #rasterskalevi h3{
+        margin-left: 26%;
+    }
+    #movie #rasterskadesni, #volcano #rasterskadesni, #intervention #rasterskadesni {
+        margin-top: 7%;
+        background-size: 90%;
+      }
+      #movie {
+        height: 735px;
+    }
+    .mokapvelicina{
+        height: 421px;
+        margin-bottom: 10%;
+    }
+    #moviemokap .slikamokap, #volcanomokap .slikamokap, #interventionmokap .slikamokap{
+        width: 50%;
+    }
+   
+    #volcano{
+        height: 738px;
+        padding-top: 10%;
+    }
+    #intervention{
+        height: 688px;
+        
+    }
+    #banners {
+        
+        padding-top: 15%;
+        
+      }
+    #banerdesni {
+        width: 60%;
+      }
+      #banertekst {
+        width: 100%;
+      }
+}
+
+@media (max-width:640px){
+    #rasterska {
+        height: 436px;
+    }
+    .belir p, .crnir p {
+        font-size: 24px;
+    }
+
+    #rasterskalevi h3 {
+        margin-left: 19%;
+      }
+
+      .linkmokap {
+        width: 41%;
+        
+        padding: 2%;
+    }
+    #volcano {
+        height: 590px;
+       
+      }
+      .mokapvelicina {
+        height: 363px;
+    }
+        #intervention {
+            height: 639px;
+          }
+          #banerlevi{
+            height: 529px;
+          }
+          #dugacki{
+            height: 15%;
+          }
+          #banners{
+            padding-top: 26%;
+         } 
+}
