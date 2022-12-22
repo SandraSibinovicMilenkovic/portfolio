@@ -503,3 +503,11 @@ width: 100px;
     }
     
 }
+
+@media (max-width:768px){
+  #cover{
+    height: 447px;
+  }  
+
+  
+}

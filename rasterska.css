@@ -337,3 +337,11 @@ width: 50%;
             padding-top: 26%;
          } 
 }
+
+@media (max-width:768px){
+    #rasterska {
+        height: 525px;
+    }  
+  
+    
+  }

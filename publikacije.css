@@ -103,3 +103,88 @@
     margin-bottom: 2%;
     
 }
+
+#skriven{
+    display: none;
+}
+
+
+@media (max-width: 900px){
+
+#magazine{
+    flex-direction: column;
+    height: 1469px;
+}
+.publicationleft, .publicationright{
+    width: 100%;
+    align-items: center;
+}
+.publicationleft #covermagazine{
+    height: 350px;
+    width: 100%;
+    background-position: center;
+    }
+    .publicationright #pagesmagazine{
+        height: 350px;
+        width: 100%;
+        background-position: center;
+    }
+    .textpublication p{
+        width: 100%;
+        padding-top: 2%;
+        text-align: center;  
+    }
+    .textpublication{
+        width: 76%;
+    }
+    
+    .publicationright{
+        margin-top: 8%;
+        margin-left: 0;
+    }
+
+    .flipbook-viewport{
+        display: none;
+    }
+    #skriven{
+        display: block;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .entire{
+        display: none;
+    }
+
+
+    #brosuramokap{
+        height: 950px;
+    }
+    #brosuratext{
+        flex-direction: column;
+    }
+    #brosuratext .textpublication {
+        width: 80%;
+        margin-left: 0;
+      }
+
+
+      #book{
+        margin-top: 15%;
+        flex-direction: column;
+      }
+      .publicationleft #coverbook{
+        height: 350px;
+        width: 100%;
+        background-position: center;
+        }
+
+        .publicationright #pagesbook{
+            height: 350px;
+            width: 100%;
+            background-position: center;
+
+        }
+        .publicationright .textpublication  {
+            margin-bottom: 10%;
+          }
+}
