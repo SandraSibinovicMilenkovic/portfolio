@@ -248,15 +248,18 @@ width: 50%;
 }
 
 
-@media (max-width:900px){
+@media (max-width:1024px){
     #linkr{
         padding-top: 14%;
     }
     #rasterska {
-        height: 614px;
-        width: 100%;
-        margin-top: 8%;
-    }
+        height: 567px;
+        width: 83%;
+        margin-top: 1%;
+      }
+
+
+    
     #rasterskalevi, #rasterskadesni{
         width: 50%;
         padding-top: 8%;
@@ -266,7 +269,8 @@ width: 50%;
     }
     #movie #rasterskadesni, #volcano #rasterskadesni, #intervention #rasterskadesni {
         margin-top: 7%;
-        background-size: 90%;
+        background-size: 75%;
+        
       }
       #movie {
         height: 735px;
@@ -292,6 +296,10 @@ width: 50%;
         padding-top: 15%;
         
       }
+      #banerlevi{
+         height: 484px;
+      }
+     
     #banerdesni {
         width: 60%;
       }
@@ -341,7 +349,17 @@ width: 50%;
 @media (max-width:768px){
     #rasterska {
         height: 525px;
+        
+        
+        width: 100%;
+        margin-top: 8%;
     }  
-  
+    #movie #rasterskadesni, #volcano #rasterskadesni, #intervention #rasterskadesni {
+        background-size: 90%;
+    }
+    
+   #banerlevi{
+    height: 700px;
+   }
     
   }

@@ -174,29 +174,13 @@
     background-image: url('Slike/Radovi/vektori/stampirana\ mokap\ za\ logo\ .jpg');
 }
 
+@media (max-width: 1024px){
+    #vektorska{
+        height: 539px;
+        margin-top: 7%;
+    }
 
-
-@media (max-width: 900px){
-
-#vektorska{
-    height: 555px;
-    margin-top: 10%;
-}
-#link{
-    padding-top: 125px;
-}
-
-
-#vektorska section:hover .belivektorska{
-    background-size:100% ;
-}
-#vektorska section:hover .crnivektorska{
-    background-size:100% ;
-}
-#vektorska section:hover p, #rasterska section:hover p {
-    text-decoration: line-through;
-    font-size: 40px;
-}
+    
 .crnivektorska p, .belivektorska p{
     font-size: 30px;
 }
@@ -206,7 +190,10 @@
 }
 .vektorilevi, .vektoridesni{
     width: 100%;
+    padding-top: 128px;
 }
+
+
 #jackson .vektorilevi .vektorislika{
     height: 350px;
     width: 100%;
@@ -267,5 +254,55 @@ h3{
     width: 100%;
     background-position: center;
 }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+
+#vektorska{
+    height: 555px;
+    margin-top: 10%;
+}
+#link{
+    padding-top: 125px;
+}
+
+
+#vektorska section:hover .belivektorska{
+    background-size:100% ;
+}
+#vektorska section:hover .crnivektorska{
+    background-size:100% ;
+}
+#vektorska section:hover p, #rasterska section:hover p {
+    text-decoration: line-through;
+    font-size: 40px;
+}
+.crnivektorska p, .belivektorska p{
+    font-size: 30px;
+}
+.strana{
+    height: 1100px;
+    flex-direction: column;
+}
+.vektorilevi, .vektoridesni{
+    padding-top: 50px;
+    
+}
+
 
 }
+
+

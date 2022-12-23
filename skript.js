@@ -23,4 +23,9 @@ function start() {
         document.body.removeChild('loader');
     }
 
+
+    
+
+
+
 }

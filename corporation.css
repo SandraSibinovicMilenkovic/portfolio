@@ -41,7 +41,7 @@
 #skriven{
     display: none;
 }
-@media (max-width: 900px){
+@media (max-width: 1024px){
     #corporation{
         height: 1215px;
         flex-direction: column;
