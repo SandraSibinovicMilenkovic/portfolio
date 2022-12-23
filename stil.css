@@ -355,6 +355,78 @@ width: 100px;
     }
 }
 
+
+
+
+@media (max-width: 1800px ){
+    #beli{
+        background-color: white;
+        background-size: 1166px;
+        background-repeat: no-repeat;
+        background-position-x: -281px;
+     }
+     #crni{
+        background-size: 908px;
+        background-repeat: no-repeat;
+        background-color: black;
+        background-position-y: 55px;
+        background-position-x: -19px;
+      }
+      #crni p {
+        font-size: 19px;
+      }
+      #contact{
+        height: 400px;
+        background-size: 1791px;
+        background-repeat: no-repeat;
+    }
+    #kontaktdesno img{
+        width: 50px;
+    }
+    #contact p {
+        font-size: 20px;
+    }
+    #kontaktdesno img:hover{
+        width: 60px;
+        }
+        #kontaktlevo, #kontaktdesno {
+            width: 45%;
+        
+          }
+     
+     
+}
+@media (max-width: 1346px){
+    #beli{
+        background-color: white;
+        background-size: 1419px;
+        background-repeat: no-repeat;
+        background-position-x: -547px;
+     }
+     #crni{
+        background-size: 745px;
+        background-repeat: no-repeat;
+        background-color: black;
+        background-position-y: 90px;
+        background-position-x: -38px;
+      }
+}
+@media (max-width: 1240px ){
+    #beli{
+        background-size: 1415px;
+        background-position-x: -590px;
+     }
+     #crni{
+        background-size: 695px;
+        background-position-y: 100px;
+        background-position-x: -35px;
+      }
+      #crni p {
+        font-size: 15px;
+      }
+}
+
+
 @media (max-width: 1024px ){
     #logo img {
         height: 50px;
@@ -420,7 +492,7 @@ width: 100px;
 }
 
 
-@media (max-width: 768px ){
+@media (max-width: 900px ){
     body{
         overflow-x: hidden;
     }
@@ -451,12 +523,15 @@ width: 100px;
         background-size: 610px;
         background-repeat: no-repeat;
         background-position-x: -199px;
+
      }
      #crni{
-        background-size: 423px;
+        
+        background-size: 430px;
         background-repeat: no-repeat;
         background-color: black;
-        background-position-y: -4px;
+        background-position-y: -5px;
+        background-position-x: 33%;
      }
      #crni p{
         
@@ -482,11 +557,42 @@ width: 100px;
         width: 60px;
         }
         #kontaktlevo, #kontaktdesno {
-            width: 50%;
+            width: 43%;
           }
          
 }
+@media (max-width:800px){
+    #kontaktlevo, #kontaktdesno{
+    width: 47%;}
+    #cover{
+        height: 400px;
+    }
+}
 
+@media (max-width:768px){
+    #cover{
+      height: 447px;
+    }  
+    #crni{
+        background-size: 423px;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position-y: -4px;
+    }
+    #kontaktlevo, #kontaktdesno {
+        width: 50%;
+      }
+    
+    
+  }
+  @media (max-width: 710px ){
+    #contact {
+    height: 400px;
+    background-size: 793px;
+    background-repeat: no-repeat;
+  }
+}
+  
 
 
 @media (max-width: 640px ){
@@ -539,7 +645,7 @@ width: 100px;
 
     #contact {
         height: 354px;
-        background-size: 667px;
+        background-size: 762px;
         background-repeat: no-repeat;
     
     }
@@ -553,10 +659,3 @@ width: 100px;
     
 }
 
-@media (max-width:768px){
-  #cover{
-    height: 447px;
-  }  
-
-  
-}
