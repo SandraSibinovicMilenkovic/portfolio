@@ -355,10 +355,72 @@ width: 100px;
     }
 }
 
+@media (max-width: 1024px ){
+    #logo img {
+        height: 50px;
+    }
+    #about{
+        height: 576px;
+        
+     }
+     #beli{
+        background-color: white;
+        background-size: 1016px;
+        background-repeat: no-repeat;
+        background-position-x: -394px;
+     }
+     #crni{
+        background-size: 562px;
+        background-repeat: no-repeat;
+        background-color: black;
+        background-position-y: 55px;
+        background-position-x: -19px;
+      }
+     
+     #crni p{
+        
+        font-size: 14px;
+     }
+     #arts{
+        height: 600px;
+      }
+      #arts section:hover p{
+        text-decoration: line-through;
+        font-size: 30px;
+    }
+    #arts section:hover .beliarts{
+        background-size:50% ;
+    }
+    #arts section:hover .crniarts{
+        background-size:50% ;
+    }
+
+
+    #contact{
+        height: 400px;
+        background-size: 1067px;
+        background-repeat: no-repeat;
+    }
+    #kontaktdesno img{
+        width: 50px;
+    }
+    #contact p {
+        font-size: 20px;
+    }
+    #kontaktdesno img:hover{
+        width: 60px;
+        }
+        #kontaktlevo, #kontaktdesno {
+            width: 45%;
+        
+          }
 
 
 
-@media (max-width: 900px ){
+}
+
+
+@media (max-width: 768px ){
     body{
         overflow-x: hidden;
     }
@@ -386,9 +448,9 @@ width: 100px;
         
      }
      #beli{
-        background-color: white;
-        background-size: 518px;
+        background-size: 610px;
         background-repeat: no-repeat;
+        background-position-x: -199px;
      }
      #crni{
         background-size: 423px;
@@ -404,20 +466,7 @@ width: 100px;
      #linkarts {
         padding-top: 75px;
       }
-      #arts{
-        height: 600px;
-      }
-      #arts section:hover p{
-        text-decoration: line-through;
-        font-size: 30px;
-    }
-    #arts section:hover .beliarts{
-        background-size:50% ;
-    }
-    #arts section:hover .crniarts{
-        background-size:50% ;
-    }
-
+      
     #contact{
         height: 400px;
         background-size: 900px;
@@ -433,7 +482,7 @@ width: 100px;
         width: 60px;
         }
         #kontaktlevo, #kontaktdesno {
-            width: 45%;
+            width: 50%;
           }
          
 }
