@@ -358,7 +358,27 @@ width: 100px;
 
 
 
-@media (max-width: 1800px ){
+@media (max-width: 1550px ){
+    nav{
+        height: 8%;
+    }
+
+    nav ul li a{
+        font-size: 26px;
+        
+    }
+    nav ul li:hover a {
+       font-size:35px ;
+    
+    }
+    #logo img {
+        height: 57px;
+      }
+
+
+    #about{
+        height: 589px;
+    }
     #beli{
         background-color: white;
         background-size: 1166px;
@@ -366,17 +386,31 @@ width: 100px;
         background-position-x: -281px;
      }
      #crni{
-        background-size: 908px;
+        background-size: 715px;
         background-repeat: no-repeat;
         background-color: black;
-        background-position-y: 55px;
-        background-position-x: -19px;
+        background-position-y: 1px;
+        background-position-x: 21px;
       }
       #crni p {
         font-size: 19px;
       }
+
+      #arts {
+        height: 588px;
+    }
+    section a .beliarts, section a .crniarts{
+        background-size: 50%;
+    }
+    #arts section:hover .beliarts{
+        background-size:60% ;
+    }
+    #arts section:hover .crniarts{
+        background-size:60% ;
+    }
+   
       #contact{
-        height: 400px;
+        height: 575px;
         background-size: 1791px;
         background-repeat: no-repeat;
     }
@@ -396,6 +430,14 @@ width: 100px;
      
      
 }
+
+
+
+
+
+
+
+
 @media (max-width: 1346px){
     #beli{
         background-color: white;

@@ -174,6 +174,32 @@
     background-image: url('Slike/Radovi/vektori/stampirana\ mokap\ za\ logo\ .jpg');
 }
 
+
+@media (max-width: 1550px ){
+   #vektorska{
+    height: 586px;
+}
+    .strana {
+        height: 606px;
+        padding-top: 9%;
+   } 
+   .vektorilevi .vektorislika, #rasterskadesni {
+    height: 100%;
+    width: 100%;
+    background-position: right;
+  }
+  .vektoritekst {
+    width: 54%;
+  }
+  #plumbing .vektoritekst, #bugs .vektoritekst{
+        width: 62%;
+  }
+  .vektoritekst p, #rasterskalevi p {
+    width: 100%;
+    padding-top: 2%;
+  }
+}
+
 @media (max-width: 1024px){
     #vektorska{
         height: 539px;

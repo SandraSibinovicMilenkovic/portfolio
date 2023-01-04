@@ -108,6 +108,14 @@
     display: none;
 }
 
+@media (max-width: 1550px ){
+    .textpublication {
+        width: 70%;
+      }
+      #brosuratext .textpublication {
+        width: 29%;
+    }
+}
 
 @media (max-width: 1024px){
 

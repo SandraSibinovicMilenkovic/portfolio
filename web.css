@@ -84,7 +84,11 @@
     width: 70%;
 }
 
-
+@media (max-width: 1550px ){
+    .weblevi .webslika{
+        height: 39%;
+    }
+}
 
 @media (max-width:1024px){
     #stampiranaid, #gustid{
