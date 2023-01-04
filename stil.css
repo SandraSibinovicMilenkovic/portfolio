@@ -722,6 +722,9 @@ width: 100px;
 
 
 @media(max-width:500px){
+    .naslov{
+        font-size: 60px;
+    }
     nav{
         display: none;
     }
@@ -837,5 +840,47 @@ width: 100px;
       }
       #kontaktdesno div {
         margin: 3%;
+      }
+}
+
+@media (max-width:428px) and (min-width: 360px){
+    #about {
+        height: 305px;
+      }
+
+    #beli {
+        background-size: 458px;
+        background-position-x: -197px;
+    }
+    #crni{
+        background-image: none;
+        background-color: #fff;
+        border: 1px solid black;
+    }
+    .naslov{
+        font-size: 50px;
+    }
+    #cover {
+        height: 203px;
+        background-position-y: 65px;
+      }
+      #arts {
+        height: 231px;
+      }
+      #arts section:hover p {
+        
+        font-size: 18px;
+      }
+      #contact {
+        height: 354px;
+        background-size: 1034px;
+        background-repeat: no-repeat;
+        background-position: right;
+      }
+      #kontaktlevo{
+        width: 20%;
+      }
+      #kontaktdesno{
+        width: 100%;
       }
 }
