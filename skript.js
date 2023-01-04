@@ -16,6 +16,18 @@ function start() {
 
 
 
+    const burger = document.querySelector("#burger");
+    const menu = document.querySelector("#navMeni");
+    const iks = document.querySelector("#iks");
+    burger.addEventListener("click", () => {
+        menu.style.display = "flex";
+    });
+    iks.addEventListener("click", () => {
+        menu.style.display = "none";
+    });
+
+
+
     const loader = document.querySelector('.loader');
     loader.classList.add('loader-hidden');
     loader.addEventListener('transitioned',sklanja,false);
