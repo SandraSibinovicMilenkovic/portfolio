@@ -209,8 +209,7 @@ nav ul li:hover a {
 section a{
     width: 100%;
     height: 100%;
-    display: flex;
-    /* align-items: center; */
+    font-size: 15px;
     justify-content: center;
     flex-direction: column;
     text-decoration: none;
@@ -882,5 +881,8 @@ width: 100px;
       }
       #kontaktdesno{
         width: 100%;
+      }
+      #section a{
+        font-size: 13px;
       }
 }

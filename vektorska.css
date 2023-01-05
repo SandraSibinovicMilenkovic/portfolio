@@ -282,18 +282,14 @@ h3{
 }
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width:1024px){
+    #plumbing .vektoritekst, #bugs .vektoritekst {
+        width: 100%;
+      }
+      .vektoritekst p, #rasterskalevi p{
+        padding-bottom: 3%;
+      }
+}
 
 @media (max-width: 768px){
 
@@ -329,6 +325,43 @@ h3{
 }
 
 
+}
+
+
+@media(max-width:428px) and (min-width: 360px){
+    #vektorska{
+        height: 300px;
+        
+    }
+    #vektorska section .belivektorska, #vektorska section .crnivektorska {
+        background-size: 90%;
+}
+#vektorska section:hover .belivektorska, #vektorska section:hover .crnivektorska  {
+    background-size: 80%;
+  }
+  .crnivektorska p, .belivektorska p {
+    font-size: 18px;
+  }
+  #vektorska section:hover p, #rasterska section:hover p {
+    font-size: 20px;
+  }
+  #jackson .vektorilevi .vektorislika, #bugs .vektorilevi .vektorislika, #plumbing .vektorilevi .vektorislika, #stampirana .vektorilevi .vektorislika  {
+    background-position: bottom;
+  }
+  #stampirana .vektorilevi .vektorislika {
+    height: 406px;
+    }
+  .vektoritekst p, #rasterskalevi p{
+    text-align: justify;
+  }
+  .vektoritekst {
+    padding-bottom: 5%;
+    width: 100%;
+  }
+  #plumbing .vektoritekst, #bugs .vektoritekst {
+    width: 100%;
+  }
+  
 }
 
 
