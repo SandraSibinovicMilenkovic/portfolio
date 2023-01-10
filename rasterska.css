@@ -412,7 +412,15 @@ width: 50%;
       }
       #rasterskalevi, #rasterskadesni {
         width: 100%;
+        align-items: center;
+
     }
+    #rasterskalevi h3 {
+        margin-left: 0;
+      }
+      #rasterskalevi p{
+        padding-left: 0;
+      }
     #movie #rasterskadesni, #volcano #rasterskadesni, #intervention #rasterskadesni {
         background-size: 80%;
         background-position: center;
@@ -452,6 +460,6 @@ width: 50%;
         width: 100%;
       }
       #gif{
-        height: 25%;
+        height: 30%;
       }
 }
