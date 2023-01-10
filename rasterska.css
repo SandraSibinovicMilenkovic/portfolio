@@ -19,6 +19,7 @@
 }
 #rasterska section a{
     justify-content: flex-start;
+    hyphens: manual;
 }
 
 .crnir{
