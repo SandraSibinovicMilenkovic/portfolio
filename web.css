@@ -144,6 +144,7 @@
     }
     #stampiranaid, #gustid{
         height: 977px;
+        overflow-x: hidden;
     }
     #gustid .weblevi .webtekst, #stampiranaid .weblevi .webtekst {
         width: 90%;

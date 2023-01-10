@@ -316,7 +316,7 @@ h3{
     font-size: 30px;
 }
 .strana{
-    height: 1100px;
+    height: 1200px;
     flex-direction: column;
 }
 .vektorilevi, .vektoridesni{
@@ -333,6 +333,7 @@ h3{
         height: 300px;
         
     }
+    
     #vektorska section .belivektorska, #vektorska section .crnivektorska {
         background-size: 90%;
 }
