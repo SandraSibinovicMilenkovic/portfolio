@@ -389,10 +389,74 @@ width: 50%;
          } 
 }
 @media (max-width:428px) and (min-width: 360px){
+
+    #rasterska #prvir .crnir, #rasterska #drugir .belir, #rasterska #trecir .crnir, #rasterska #cetvrtir .belir {
+        background-size: cover;
+        
+    }
+
+
     #linkr {
         padding-top: 27%;
       }
       #rasterska {
         height: 310px;
+      }
+      #rasterska #prvir .crnir, #rasterska #drugir .belir, #rasterska #trecir .crnir{
+        height: 43%;
+        background-size: cover;
+      }
+      #rasterska #cetvrtir .belir {
+        background-size: contain;
+        height: 43%;
+      }
+      #movie, #volcano, #intervention{
+        flex-direction: column-reverse;
+        height: 1260px;
+        padding-top: 0;
+      }
+      #rasterskalevi, #rasterskadesni {
+        width: 100%;
+    }
+    #movie #rasterskadesni, #volcano #rasterskadesni, #intervention #rasterskadesni {
+        background-size: 80%;
+        background-position: center;
+        margin: 0;
+        height: 430px;
+      }
+      .mokapvelicina{
+        flex-direction: column;
+        height: 608px;
+      }
+      #moviemokap .slikamokap, #volcanomokap .slikamokap, #interventionmokap .slikamokap {
+        width: 100%;
+        background-position: center;
+        background-size: 500px;
+      }
+      .linkmokap {
+        width: 80%;
+        padding: 12%;
+      }
+      
+      #banners {
+        justify-content: unset;
+        flex-direction: column-reverse;
+        height: 1134px;
+      }
+      #banerlevi{
+        width: 100%;
+        height: 898px;
+        margin-bottom: 5%;
+      }
+      #banerdesni {
+        height: 1130px;
+        margin-top: 10%;
+        width: 100%;
+      }
+      #dugacki {
+        width: 100%;
+      }
+      #gif{
+        height: 25%;
       }
 }
