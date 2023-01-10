@@ -54,3 +54,11 @@
         height: 376px;
     }
 }
+@media (max-width:428px) and (min-width: 360px){
+    #videomonster, #videoclown {
+        height: 228px;
+      }
+      #clown {
+        flex-direction: column-reverse;
+        }
+}

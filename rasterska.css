@@ -388,3 +388,11 @@ width: 50%;
             padding-top: 26%;
          } 
 }
+@media (max-width:428px) and (min-width: 360px){
+    #linkr {
+        padding-top: 27%;
+      }
+      #rasterska {
+        height: 310px;
+      }
+}

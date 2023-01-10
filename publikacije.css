@@ -140,7 +140,7 @@
     .textpublication p{
         width: 100%;
         padding-top: 2%;
-        text-align: center;  
+        text-align: justify;  
     }
     .textpublication{
         width: 76%;
@@ -149,6 +149,9 @@
     .publicationright{
         margin-top: 8%;
         margin-left: 0;
+    }
+    .publicationright .textpublication p{
+        text-align: center;
     }
 
     .flipbook-viewport{
@@ -195,4 +198,11 @@
         .publicationright .textpublication  {
             margin-bottom: 10%;
           }
+}
+
+
+@media (max-width:428px) and (min-width: 360px){
+    #magazine {
+        height: 1594px;
+}
 }
