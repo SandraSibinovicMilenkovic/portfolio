@@ -389,13 +389,6 @@ width: 50%;
          } 
 }
 @media (max-width:428px) and (min-width: 360px){
-
-    #rasterska #prvir .crnir, #rasterska #drugir .belir, #rasterska #trecir .crnir, #rasterska #cetvrtir .belir {
-        background-size: cover;
-        
-    }
-
-
     #linkr {
         padding-top: 27%;
       }
