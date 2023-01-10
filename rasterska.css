@@ -407,6 +407,7 @@ width: 50%;
         flex-direction: column-reverse;
         height: 1260px;
         padding-top: 0;
+        overflow-x: hidden;
       }
       #rasterskalevi, #rasterskadesni {
         width: 100%;
