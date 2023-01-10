@@ -434,7 +434,7 @@ width: 50%;
       #moviemokap .slikamokap, #volcanomokap .slikamokap, #interventionmokap .slikamokap {
         width: 100%;
         background-position: center;
-        background-size: 500px;
+        background-size: 354px;
       }
       .linkmokap {
         width: 80%;
@@ -455,11 +455,13 @@ width: 50%;
         height: 1130px;
         margin-top: 10%;
         width: 100%;
+        margin-bottom: 16%;
       }
       #dugacki {
         width: 100%;
       }
-      #gif{
-        height: 30%;
+      #gif {
+        height: 164px;
+        width: 100%;
       }
 }
