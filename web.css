@@ -44,6 +44,7 @@
 .webtekst p {
     width: 75%;
     padding-top: 2%;
+    text-align: justify;
 }
  h3 {
     font-family: 'h3';
@@ -128,4 +129,33 @@
     width: 70%;
     padding: 5%;
 }
+}
+
+
+@media(max-width:428px) and (min-width: 360px){
+    .weblevi, .webdesni{
+        padding: 0;
+        flex-direction:column;
+    }
+
+    #stampiranaid .weblevi .webslika, #gustid .weblevi .webslika{
+        width: 100%;
+        margin-top: 42px;
+    }
+    #stampiranaid, #gustid{
+        height: 977px;
+    }
+    #gustid .weblevi .webtekst, #stampiranaid .weblevi .webtekst {
+        width: 90%;
+}
+.webtekst{
+    height: 236px;
+}
+#stampiranaid .webdesni .webslika, #gustid .webdesni .webslika{
+    width: 100%;
+}
+.webdesni .webtekst {
+    width: 100%;
+    
+  }
 }
