@@ -23,6 +23,9 @@
 #corporationtext{
     width: 50%;
 }
+#corporationtext p{
+    line-height: 1.2;
+}
 #bonsai{
     width: 60%;
     background-image: url('Slike/Radovi/korporativni/bonsai-pejzaz-logo.jpg');

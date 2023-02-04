@@ -46,6 +46,7 @@
 .textpublication{
     width: 56%;
     margin-top: 3%;
+    line-height: 1.2;
 }
 
 #brosura{
@@ -68,10 +69,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    line-height: 1.2;
 }
 #brosuratext .textpublication{
     width: 23%;
     margin-left: 5%;
+    line-height: 1.2;
 }
 
 #book{

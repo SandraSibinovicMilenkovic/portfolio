@@ -3,10 +3,12 @@
     width: 60%;
     display: flex;
     justify-content: center;
+   
 }
 #rasterska section{
     width: 100%;
     height: 100%;
+    
 }
 #omotac{
     width: 100%;
@@ -34,6 +36,7 @@
     font-family: 'Amatic';
     text-align: center;
     text-decoration: none;
+    line-height: 1.2;
 }
 .belir{
     background-color: white;
@@ -49,6 +52,7 @@
     font-family: 'Amatic';
     text-align: center;
     text-decoration: none;
+    line-height: 1.2;
     
 }
 
@@ -123,6 +127,9 @@
     flex-direction: column;
     align-items: baseline;
     padding-top: 5px;
+}
+#rasterskalevi p{
+  line-height: 1.2;
 }
 
 #rasterskadesni{
@@ -246,6 +253,10 @@
 
 #banertekst{
 width: 50%;
+
+}
+#banertekst p{
+  line-height: 1.2;
 }
 @media (max-width: 1550px ){
     #rasterska #prvir .crnir, #rasterska #drugir .belir,#rasterska #trecir .crnir,#rasterska #cetvrtir .belir {

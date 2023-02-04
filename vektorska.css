@@ -23,6 +23,7 @@
 .crnivektorska p{
     color: white;
     font-size: 40px;
+    line-height: 1.2;
     font-family: 'Amatic';
     text-align: center;
     text-decoration: none;
@@ -38,6 +39,7 @@
 .belivektorska p{
     color: black;
     font-size: 40px;
+    line-height: 1.2;
     font-family: 'Amatic';
     text-align: center;
     text-decoration: none;
@@ -131,6 +133,7 @@
 }
 .vektoritekst  {
     width: 50%;
+    line-height: 1.2;
 }
 .vektoritekst p, #rasterskalevi p{
     width: 75%;

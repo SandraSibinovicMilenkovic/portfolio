@@ -27,6 +27,10 @@
     margin-left: 2%;
     width: 30%;
     margin-right: 2%;
+    
+}
+.videotext p{
+    line-height: 1.2;
 }
 @media (max-width:1024px){
     #monster, #clown{
