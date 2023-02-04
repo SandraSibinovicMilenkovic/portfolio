@@ -22,7 +22,16 @@ body{
 }
 
 
-
+#switchBtn{
+    position: fixed;
+        top: 2.4%;
+        z-index: 100;
+        width: 36px;
+        height: 23px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        left: 96%;
+}
 
 nav{
     width: 100%;
@@ -125,7 +134,7 @@ nav ul li:hover a {
  }
 #crni p{
     width: 78%;
-    font-size: 24px;
+    font-size: 23px;
     color: black;
  }
  
@@ -399,9 +408,19 @@ width: 100px;
         background-position-x: 21px;
       }
       #crni p {
-        font-size: 19px;
+        font-size: 18px;
       }
-
+      #crni div{
+        width: 66%;
+      }
+      #crni p {
+        width: 91%;
+        line-height: 1.1;
+    }
+    #drugiParagraf p{
+        padding-left: 12%;
+        line-height: 1.1;
+    }
       #arts {
         height: 645px;
     }
@@ -762,6 +781,16 @@ width: 100px;
         text-decoration: line-through;
         font-size: 35px;
         
+    }
+    #switchBtn{
+        position: fixed;
+            top: 2.4%;
+            z-index: 100;
+            width: 30px;
+            height: 20px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            left: 83%;
     }
     
     #burger{
