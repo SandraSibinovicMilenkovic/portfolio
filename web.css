@@ -107,7 +107,7 @@
 }
 
 @media (max-width:1024px){
-    #stampiranaid, #gustid{
+    #stampiranaid, #gustid, #gep011{
         flex-direction: column;
         height: 550px;
     }
@@ -118,7 +118,7 @@
         flex-direction: row;
         
     }
-    #stampiranaid .weblevi .webslika,#gustid .weblevi .webslika {
+    #stampiranaid .weblevi .webslika,#gustid .weblevi .webslika, #gep01 .weblevi .webslika {
         height: 220px;
         width: 80%;
     }
@@ -135,7 +135,7 @@
     padding: 0 5%;
 }
 
-#stampiranaid .webdesni .webslika, #gustid .webdesni .webslika{
+#stampiranaid .webdesni .webslika, #gustid .webdesni .webslika, #gep011 .webdesni .webslika{
     height: 220px;
     width: 80%;
     background-position: center;
@@ -153,7 +153,7 @@
         flex-direction:column;
     }
 
-    #stampiranaid .weblevi .webslika, #gustid .weblevi .webslika{
+    #stampiranaid .weblevi .webslika, #gustid .weblevi .webslika, #gep011 .weblevi .webslika{
         width: 100%;
         margin-top: 42px;
     }
@@ -161,13 +161,13 @@
         height: 977px;
         overflow-x: hidden;
     }
-    #gustid .weblevi .webtekst, #stampiranaid .weblevi .webtekst {
+    #gustid .weblevi .webtekst, #stampiranaid .weblevi .webtekst, #gep011 .weblevi .webtekst {
         width: 90%;
 }
 .webtekst{
     height: 236px;
 }
-#stampiranaid .webdesni .webslika, #gustid .webdesni .webslika{
+#stampiranaid .webdesni .webslika, #gustid .webdesni .webslika, #gep011 .webdesni .webslika{
     width: 100%;
 }
 .webdesni .webtekst {
