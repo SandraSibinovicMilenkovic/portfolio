@@ -78,13 +78,27 @@
     background-image: url('Slike/Radovi/web/mokap\ gust.jpg');
 }
 
-#gustid .weblevi .webslika,#stampiranaid .weblevi .webslika{
+#gustid .weblevi .webslika,#stampiranaid .weblevi .webslika, #gep011 .weblevi .webslika{
    width:  70%;
 
 }
-#gustid .weblevi .webtekst,#stampiranaid .weblevi .webtekst{
+#gustid .weblevi .webtekst,#stampiranaid .weblevi .webtekst,#gep011 .weblevi .webtekst{
     width: 70%;
 }
+#gep011 .weblevi .webslika{
+    background-image: url('Slike/Radovi/web/Gep\ 011.PNG');
+}
+#gep011 .webdesni .webslika{
+    background-image: url('Slike/Radovi/web/gep011\ mokap.jpg');
+}
+
+#gep011 {
+    padding-top: 0%;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 
 @media (max-width: 1550px ){
     .weblevi .webslika{
